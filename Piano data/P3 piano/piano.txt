@@ -1,0 +1,155 @@
+#include<iostream>
+#include<conio.h>
+#include<Windows.h>
+#include<MMSystem.h>
+#include<stdlib.h>
+using namespace std;
+int main()
+{    
+	char p;
+	char a,b,c=14,d=219,e=178,f=179,o=1;
+	a=177;
+	b=13;
+	int j=0;
+	re:
+		system("cls");
+			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	for(int i=0;i<39;i++)
+	{
+		cout<<c<<" ";
+	}
+	cout<<"\n";
+	cout<<"                 "<<a<<a<<a<<a<<a<<"   "<<a<<a<<a<<a<<a<<a<<a<<"   "<<a<<a<<a<<a<<a<<a<<a<<"   "<<a<<"    "<<a<<"   "<<a<<a<<a<<a<<a<<a<<a<<"\n";
+	cout<<"                 "<<a<<"   "<<a<<"      "<<a<<"      "<<a<<"     "<<a<<"   "<<a<<""<<a<<"   "<<a<<"   "<<a<<"     "<<a<<"\n";
+	cout<<"                 "<<a<<a<<a<<a<<a<<"      "<<a<<"      "<<a<<a<<a<<a<<a<<a<<a<<"   "<<a<<" "<<a<<"  "<<a<<"   "<<a<<"     "<<a<<"\n";
+	cout<<"                 "<<a<<"          "<<a<<"      "<<a<<"     "<<a<<"   "<<a<<"  "<<a<<" "<<a<<"   "<<a<<"     "<<a<<"\n";
+	cout<<"                 "<<a<<"          "<<a<<"      "<<a<<"     "<<a<<"   "<<a<<"   "<<a<<""<<a<<"   "<<a<<"     "<<a<<"\n";
+	cout<<"                 "<<a<<"       "<<a<<a<<a<<a<<a<<a<<a<<"   "<<a<<"     "<<a<<"   "<<a<<"    "<<a<<"   "<<a<<a<<a<<a<<a<<a<<a<<"\n";
+	for(int i=0;i<39;i++)
+	{
+		cout<<c<<" ";
+	}
+	
+	cout<<"\n\n         ";
+	for(int i=0;i<60;i++)
+	{
+		cout<<d;
+	
+	}
+	cout<<"\n         ";
+	for(int i=0;i<21;i++)
+	{
+		cout<<d;
+	
+	}
+	cout<<" "<<o<<" CHETAN MALI "<<o<<" ";
+	for(int i=0;i<22;i++)
+	{
+		cout<<d;
+	
+	}
+	cout<<"\n         ";
+	for(int i=0;i<60;i++)
+	{
+		cout<<d;
+	
+	}
+	cout<<"\n         ";
+	for(int i=0;i<60;i++)
+	{
+		cout<<e;
+	}
+	cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<a<<a<<a<<f;
+	}
+	cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<a<<a<<a<<f;
+	}
+	cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<a<<a<<a<<f;
+	}
+cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<a<<a<<a<<f;
+	}
+	cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<i<<a<<a<<f;
+	}
+	cout<<"\n         ";
+	for(int i=0;i<10;i++)
+	{
+		cout<<a<<a<<a<<a<<a<<f;
+	}
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	p=getche();
+	if(p==48)
+		{
+		//	cout<<"0";
+			PlaySound(TEXT("0.wav"), NULL, SND_SYNC);
+		}
+	else if(p==49)
+		{
+		//	cout<<"1";
+			PlaySound(TEXT("1.wav"), NULL, SND_FILENAME);
+			
+		}
+	else if(p==50)
+		{
+		//	cout<<"2";
+			PlaySound(TEXT("2.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==51)
+		{
+		//	cout<<"3";
+			PlaySound(TEXT("3.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==52)
+		{
+		//	cout<<"4";
+			PlaySound(TEXT("4.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==53)
+		{
+		//	cout<<"5";
+			PlaySound(TEXT("5.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==54)
+		{
+		//	cout<<"6";
+			PlaySound(TEXT("6.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==55)
+		{
+		//	cout<<"7";
+			PlaySound(TEXT("7.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==56)
+		{
+		//	cout<<"8";
+			PlaySound(TEXT("8.wav"), NULL, SND_FILENAME);
+		}
+	else if(p==57)
+		{
+		//	cout<<"9";
+			PlaySound(TEXT("9.wav"), NULL, SND_FILENAME);
+		}
+	else
+		{
+			cout<<"invalid!!";
+			j++;
+		}
+	if(j==0)
+	{
+		goto re;
+	}
+	return 0;
+}
